@@ -1,4 +1,4 @@
-# bioarduino.github.io
+## bioarduino.github.io
 .. toctree::
    :maxdepth: 1
    :caption: Lessons
