@@ -1,6 +1,6 @@
 # CONTENIDOS
 ## 1. Introducción a ARDUINO
-### [ARDUINO C](./ARDUINOC.md)
+## [2.ARDUINO C](./ARDUINOC.md)
 
 
 
