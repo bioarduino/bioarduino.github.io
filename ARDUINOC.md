@@ -16,10 +16,16 @@
 | int            | 2                         | -32768 a 32767|
 | unsigned int   | 2                         | 0 a 65535     |
 | word           | 2                         | 0 a 65535     |
+| short          | 2                         | -32768 a 32767|
 | long           | 4                         | -2147483648 a 2147483647|
 | unsigned long  | 4                         | 0 a 4294967295|
 | float          | 4                         | -3.4028235E+38 a 3.4028235E|
 | double         | 4                         | -3.4028235E+38 a 3.4028235E|
+| string         |                           |          |
+| String()       |                           |      |
+| array          | 2                         | colección de variables a las que se accede con un número indice|
+| void           | 0                         | Es un descriptor usado con funciones que no tienen un valor de salida. Indica que no se espera que la función devuelva información|
+
 
 
 
