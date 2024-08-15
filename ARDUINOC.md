@@ -5,7 +5,7 @@
 * La practica tradicional del lenguaje C es usar letras minusculas para nombres de variables y mayusculas para constantes
 * Es conveniente elegir nombres que esten relacionados con el próposito de la variable
 
-### 2.2 Tipos y tamaño de datos
+### 2.2 Tipos y tamaño de datos (para la plataforma Arduino UNO)
 
 | Tipo           | Longitud (byte)           | Rango |
 |--------------- |:-----------------------:  | -----:|
@@ -15,4 +15,13 @@
 | byte           | 1                         | 0 a 255     |
 | int            | 2                         | -32768 a 32767|
 | unsigned int   | 2                         | 0 a 65535     |
+| word           | 2                         | 0 a 65535     |
+| long           | 4                         | -2147483648 a 2147483647|
+| unsigned long  | 4                         | 0 a 4294967295|
+| float          | 4                         | -3.4028235E+38 a 3.4028235E|
+| double         | 4                         | -3.4028235E+38 a 3.4028235E|
+
+
+
+
 
