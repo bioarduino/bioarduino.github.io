@@ -7,7 +7,9 @@
 
 ### 2.2 Tipos y tamaño de datos
 
-| Tipo        | Longitud (byte)           | Rango |
-|------------ |:-----------------------:  | -----:|
-| bool        | 1                         | True or False |
+| Tipo           | Longitud (byte)           | Rango |
+|--------------- |:-----------------------:  | -----:|
+| bool           | 1                         | True or False |
+| char           | 1                         | -128 a +127 |
+| unsigned char  | 1                         | 0 a 255     |
   
