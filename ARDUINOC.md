@@ -8,5 +8,6 @@
 ### 2.2 Tipos y tamaño de datos
 
 | Tipo        | Longitud (byte)           | Rango |
+|------------ |:-----------------------:  | -----:|
 | bool        | 1                         | True or False |
   
