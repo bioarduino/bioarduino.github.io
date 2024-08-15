@@ -13,4 +13,6 @@
 | char           | 1                         | -128 a +127 |
 | unsigned char  | 1                         | 0 a 255     |
 | byte           | 1                         | 0 a 255     |
-  
+| int            | 2                         | -32768 a 32767|
+| unsigned int   | 2                         | 0 a 65535     |
+
