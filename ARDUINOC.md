@@ -1,6 +1,7 @@
 ## ARDUINO C
 ## 2. TIPOS DE DATOS, OPERADORES Y EXPRESIONES
 ### 2.1 Variables
+
 * Existen algunas restricciones en los nombres de las variables y de las constantes (las palabras clave estan reservadas, Ej: if, else, int, float, delay, etc)
 * La practica tradicional del lenguaje C es usar letras minusculas para nombres de variables y mayusculas para constantes
 * Es conveniente elegir nombres que esten relacionados con el próposito de la variable
@@ -28,10 +29,24 @@
 
 
 ### 2.3 Constantes
+
+#### Enteros
+
 * Una constante entera como 123 es por defecto tratado como _int_
 * Una constante long se escribe con una _l_ o _L_ terminal Ej: _123456789L_
 * Una constante sin signo se escribe con una _u_ o _U_ terminal: Ej: _33u_
 * Si queremos que sea long y sin signo se escribe con _ul_ o _UL_ terminal Ej: _32767ul_
+
+#### Punto flotante
+
+* Las constantes de punto flotante contienen un punto decimal
+´´´
+float n = 0.005;   // 0.005 es una constante de punto flotante
+´´´
+
+
+
+
 
 
 
