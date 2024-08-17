@@ -40,9 +40,10 @@
 #### Punto flotante
 
 * Las constantes de punto flotante contienen un punto decimal
-´´´
+```
 float n = 0.005;   // 0.005 es una constante de punto flotante
-´´´
+```
+
 
 
 
