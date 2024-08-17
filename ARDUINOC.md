@@ -37,11 +37,22 @@
 * Una constante sin signo se escribe con una _u_ o _U_ terminal: Ej: _33u_
 * Si queremos que sea long y sin signo se escribe con _ul_ o _UL_ terminal Ej: _32767ul_
 
+El valor de un entero puede especificarse en otras bases (octal, hexadecimal y binaria)
+
+| Base             | Ejemplo        | Formato |
+|-----------       |:-------------- | -------:|
+| 10 (decimal)     | 123            |                  |
+| 2 (binaria)      | 0b1111011      | se antepone "0b" |
+| 8 (octal)        | 0173           | se antepone "0"  |
+| 16 (hexadecimal) | 0x7B           | se antepone "0x" |
+
+
 #### Punto flotante
 
-* Las constantes de punto flotante contienen un punto decimal
+* Las constantes de punto flotante contienen un punto decimale o un exponente 
 ```c
-float n = 0.005;   // 0.005 es una constante de punto flotante
+float n = 0.007;   // 0.007 es una constante de punto flotante
+float e = 2.34E5;  // 2.34E5 es equivalente a 2.34*10^5 = 234000
 ```
 
 
