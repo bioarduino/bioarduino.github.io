@@ -40,7 +40,7 @@
 El valor de un entero puede especificarse en otras bases (octal, hexadecimal y binaria)
 
 | Base             | Ejemplo        | Formato |
-|-----------       |:-------------- | -------:|
+|-----------       |:-------------- | ----------------:|
 | 10 (decimal)     | 123            |                  |
 | 2 (binaria)      | 0b1111011      | se antepone "0b" |
 | 8 (octal)        | 0173           | se antepone "0"  |
@@ -54,6 +54,25 @@ El valor de un entero puede especificarse en otras bases (octal, hexadecimal y b
 float n = 0.007;   // 0.007 es una constante de punto flotante
 float e = 2.34E5;  // 2.34E5 es equivalente a 2.34*10^5 = 234000
 ```
+
+### 2.4 Declaraciones
+
+Todas las vairables deben ser declaradas entes de uso
+
+```c
+int lower;   // declara la variable lower como entera
+char c;      // decalara la variable c como char
+```
+
+Una variable puede ser inicializada en su declaración
+
+```c
+int i=0;    // declara la variable i como entera y se inicializa con el valor 0
+```
+
+
+
+
 
 
 
