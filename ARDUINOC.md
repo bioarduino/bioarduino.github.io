@@ -27,6 +27,15 @@
 | void           | 0                         | Es un descriptor usado con funciones que no tienen un valor de salida. Indica que no se espera que la función devuelva información|
 
 
+### 2.3 Constantes
+* Una constante entera como 123 es por defecto tratado como _int_
+* Una constante long se escribe con una _l_ o _L_ terminal Ej: _123456789L_
+* Una constante sin signo se escribe con una _u_ o _U_ terminal: Ej: _33u_
+* Si queremos que sea long y sin signo se escribe con _ul_ o _UL_ terminal Ej: _32767ul_
+
+
+
+
 
 
 
