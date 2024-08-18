@@ -100,6 +100,8 @@ int i = 0;    // declara la variable i como entera y se inicializa con el valor 
 
 ## 3. Control del Flujo
 
+### 3.1 Proposiciones y bloques
+
 * Una proposición es una instrucción completa en C.
 * Todas las proposiciones terminan con punto y coma (;)
 
@@ -109,6 +111,55 @@ i++ ;
 print(...);
 ```
 
+* Un bloque consiste en una agrupación de declaraciones y proposiciones. Se emplean llaves {} para agrupar.
+
+### 3.2 If-else
+
+* La proposición if-else se utiliza para expresar decisiones. La sintaxis es:
+```c
+if (expresión) {
+    proposición1
+else
+    proposición2
+    }
+```
+done la parte del else es optativa
+
+* La expresión se evalua; si es verdadera (esto es si la expresión tiene un valor diferente de cero), la proposición1 se ejecuta. Si es falsa (expresión cero) y si existe una parte de else, la proposición 2 se ejecuta en su lugar.
+
+
+### 3.3 Else-If
+
+* La construcción a continuación es la forma mas general de construir una decisión multiple:
+  
+```c
+if (expresión)
+    proposición
+else if (expresión)
+    proposición
+else if (expresión)
+    proposición
+else
+    proposición
+```
+
+* Las expresiones se evaluan en orden; si cualquier expresión es verdadera, la proposición asociada se ejecuta, y esto termina toda la cadena. La parte del ultimo else maneja el caso de "ninguno de los anteriores" o caso por omisión cuando ninguna de las otras condiciones se satisface. En algunos casos no hay una acción explicita para la omisiñon y el else del final puede omitirse.
+
+  
+
+Ejemplo:
+
+```c
+if (temperature >= 70) {
+      // Danger! Shut down the system.
+    }
+    else if (temperature >= 60) { // 60 <= temperature < 70
+      // Warning! User attention required.
+    }
+    else { // temperature < 60
+      // Safe! Continue usual tasks.
+    }
+```
 
 
 
