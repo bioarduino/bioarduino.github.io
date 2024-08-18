@@ -98,7 +98,18 @@ int i = 0;    // declara la variable i como entera y se inicializa con el valor 
     >>   corrimiento a la derecha
     ~    NOT
 
-### 2.8 Operadores de asignación y expresiones
+## 3. Control del Flujo
+
+* Una proposición es una instrucción completa en C.
+* Todas las proposiciones terminan con punto y coma (;)
+
+```c
+i = 50;
+i++ ;
+print(...);
+```
+
+
 
 
 
