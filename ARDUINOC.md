@@ -67,8 +67,46 @@ char c;      // decalara la variable c como char
 Una variable puede ser inicializada en su declaración
 
 ```c
-int i=0;    // declara la variable i como entera y se inicializa con el valor 0
+int i = 0;    // declara la variable i como entera y se inicializa con el valor 0
 ```
+
+### 2.5 Operadores aritméticos
+
+* Los operadores aritméticos son +, -, *, / y el operador módulo %
+* La división entera trunca cualquier parte fraccionaria
+
+### 2.6 Operadores de relación y lógicos
+
+* Los operadores de relación son >, >=, <, >=, == y !=
+
+### 2.7 Operadores de incremento y decremento
+
+* El operador ++ agrega 1 a su operando
+* El operador -- le resta 1 a su operando
+* Los operadores de incremento y decremento pueden ser utilizados como prefijos (antes de la variable) o como postfijos (despues de la variable)
+* La expresión ++n incrementa a n antes que su valor de utilice
+* La expresión n++ incrementa a n después que su valor de utilice
+
+### 2.8 Operadores para el manejo de bits
+
+* El lenguaje C proporciona seis operadores para manejo de bits y solo pueden ser aplicados a operadores enteros (char, short, int, long con y sin signo)
+
+    &    AND 
+    |    OR 
+    ^    XOR 
+    <<   corrimiento a la izquierda
+    >>   corrimiento a la derecha
+    ~    NOT
+
+### 2.8 Operadores de asignación y expresiones
+
+
+
+
+    
+
+    
+  
 
 
 
