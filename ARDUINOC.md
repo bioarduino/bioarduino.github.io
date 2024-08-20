@@ -190,8 +190,18 @@ switch (expresion) {
 * La proposición **break** provoca una salida inmediata del switch
 
   
+### 3.5 Bucles **While** y **For**
 
+* Un bucle **while** se repetirá de forma continua hasta que la expresión dentro del parentesis se vuelva falsa
 
+Ejemplo:
+```c
+var = 0;
+    while (var < 200) {
+      // do something repetitive 200 times
+      var++;
+    }
+```
 
     
 
