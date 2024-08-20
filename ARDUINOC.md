@@ -100,6 +100,10 @@ int i = 0;    // declara la variable i como entera y se inicializa con el valor 
 
 ## 3. Control del Flujo
 
+* Las sentencias de un programa en C se ejecutan secuencialmente
+* C dispone de varias sentencias para modificar este flujo secuencial: las bifurcaciones (permiten elegir entre dos o mas opciones segun cierdas condiciones) y los blucles (permiten ejecutar repetidamente un conjunto de instrucciones)
+
+
 ### 3.1 Proposiciones y bloques
 
 * Una proposición es una instrucción completa en C.
@@ -161,7 +165,30 @@ if (temperature >= 70) {
     }
 ```
 
+### 3.4 Switch
 
+Es una decisión multiple que prueba si una expresión coincide con un número de valores constantes enteros
+
+Ejemplo:
+
+```
+switch (expresión) {
+      case label1:
+        // statements
+        break;
+      case label2:
+        // statements
+        break;
+      default:
+        // statements
+        break;
+    }
+```
+
+* Se evalúa expresion y se considera  el resultado de dicha evaluación. Si coincide con el valor constante label1, se ejecutan las proposiciones correspondientes
+* La proposición break provoca una salida inmediata del switch
+
+  
 
 
 
