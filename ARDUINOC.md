@@ -171,8 +171,8 @@ Es una decisión multiple que prueba si una expresión coincide con un número d
 
 Ejemplo:
 
-```
-switch (expresión) {
+```c
+switch (expresion) {
       case label1:
         // statements
         break;
