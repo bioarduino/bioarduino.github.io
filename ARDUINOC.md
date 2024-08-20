@@ -202,9 +202,34 @@ var = 0;
       var++;
     }
 ```
+* Un bucle **for** es el más versatil y utilizado en el lenguaje C
+* Su forma general es la siguiente:
+  ```c
+  for (inicialización; expresión_de_control;actualización) {
+      proposicion;
+  }
+  ```
 
+  * El **for** se prefiere cuando existe una inicialización simple y actualizaciones
+ 
+  Ejemplo:
+
+```c
+  // Control de brillo de un LED usando PWM
+    int PWMpin = 10;  // LED en serie con una resistencia de 470 ohm  
+
+    void setup() {
+      // no setup needed
+    }
+
+    void loop() {
+      for (int i = 0; i <= 255; i++) {
+        analogWrite(PWMpin, i);
+        delay(10);
+      }
+    }
     
-
+```
     
   
 
