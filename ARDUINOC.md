@@ -185,8 +185,9 @@ switch (expresion) {
     }
 ```
 
-* Se evalúa expresion y se considera  el resultado de dicha evaluación. Si coincide con el valor constante label1, se ejecutan las proposiciones correspondientes
-* La proposición break provoca una salida inmediata del switch
+* Se evalúa **expresion** y se considera  el resultado de dicha evaluación. Si coincide con el valor constante label1, se ejecutan las proposiciones correspondientes
+* Si ninguna expresion coincide se ejecuta la proposición que esta s continuación de **default**
+* La proposición **break** provoca una salida inmediata del switch
 
   
 
