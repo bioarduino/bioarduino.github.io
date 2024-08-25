@@ -69,7 +69,8 @@ Especificaciones:
 
 ### 1.4 Instalación del entorno de desarrollo (IDE)
 
-Para comenzar a trabajar con las placas Arduino, lo primero es descargar e instalar el entorno de desarrollo (IDE) desde la siguiente dirección:[] <https://www.arduino.cc/en/software>
+Para comenzar a trabajar con las placas Arduino, lo primero es descargar e instalar el entorno de desarrollo (IDE) desde la siguiente dirección: <https://www.arduino.cc/en/software>
+
 
 
 
