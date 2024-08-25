@@ -44,6 +44,24 @@ Son placas que ocupan poco espacio. Tienen un monton de sensores integrados. Pue
 
 ### 1.3 ARDUINO R3
 
+La placa Arduino R3 esta basada en el microcontrolador ATmega328. Tiene 14 pines de entrada/salida digitales (de los cuales 6 se pueden usar como salidas PWM), 6 entradas analógicas, un cristal de 16 MHz, conexión USB, un conector de alimentación, un conector ICSP y un boton de reset.
+Especificaciones:
+* Microcontrolador: ATmega328
+* Tensión de operación: 5V
+* Rango de tensión de alimentación de entrada (recomendada) : 7-12 V
+* Rango de tensión de entrada (limite) : 6-20 V
+* Pines digitales de I/O: 14 (6 pueden ser PWM)
+* Pines analógicos de entrada: 6
+* Corriente continua por PIN de I/O: 40 mA
+* Corriente continua para el pin de 3.3 V : 50 mA
+* Memoria Flash: 32 kB (de los cuales 0.5 kB usa el bootloader)
+* SRAM: 2kB
+* EEPROM: 1 kB
+* Velocidad de reloj: 16 MHz
+
+
+
+
 
 
 
