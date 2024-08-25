@@ -59,6 +59,8 @@ Especificaciones:
 * EEPROM: 1 kB
 * Velocidad de reloj: 16 MHz
 
+![alt text](./arduino_1.png)
+
 
 
 
