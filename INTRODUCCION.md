@@ -61,6 +61,13 @@ Especificaciones:
 
 ![alt text](./arduino_1.png)
 
+* **Tx** y **Rx** son los pines serie UART usados para la comunicación RS-232 y USB
+* **I2C** es un protocolo de comuncación serie que usa un pin de datos bidireccional (SDA) y un pin de clock (SCL)
+* **SPI** es otro protocolo de comunicación serie que utiliza un pin para trasmitir (MOSI - Master Out Slave In), otro para recibir (MISO) y un tercero para el clock (SCK)
+* **PWM** (Pulse Width Modulator) es usado para crear una onda cuadrada con un ciclo de trabajo específico.
+* **ICSP** (In Circuit Serial Programming) es otra forma de programar el microcontrolador
+
+
 
 
 
