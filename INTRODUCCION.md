@@ -31,10 +31,19 @@ Es una serie de placas con el fin de no necesitar circuiteria adicional
 Todos estann basados en el micro ARM SAMD21 de 32 bits
 
 #### Familia Nano
-Son placas que ocupan poco espacio 
+Son placas que ocupan poco espacio. Tienen un monton de sensores integrados. Pueden programarse con micro python y soportan machine learning
 
-*Arduino Nano IoT (ARM SAMD21 - 32 bits)
-*
+* Arduino Nano IoT (ARM SAMD21 - 32 bits)
+* Arduino Nano RP 2040 (RP2040 - 32 bits dual core)
+* Arduino Nano ESP 32 ( Xtensa® LX7 Microprocessor) - 32 bits dual core)
+* Arduino Nano 33 BLE Sense ( 64 MHz Arm® Cortex®-M4F (with FPU) - 32 bits)
+* Arduino Nano 33 BLE ( nRF52840 - 32 bits)
+* Arduino Nano Every (ATMega 4809 - 8 bits)
+* Arduino Nano (ATMega 328 - 8 bits)
+
+
+### 1.3 ARDUINO R3
+
 
 
 
