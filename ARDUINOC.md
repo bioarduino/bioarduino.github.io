@@ -5,6 +5,17 @@
 * Existen algunas restricciones en los nombres de las variables y de las constantes (las palabras clave estan reservadas, Ej: if, else, int, float, delay, etc)
 * La practica tradicional del lenguaje C es usar letras minusculas para nombres de variables y mayusculas para constantes
 * Es conveniente elegir nombres que esten relacionados con el próposito de la variable
+* En C es NECESARIO declarar todas las variables que se van a usar
+
+#### 2.1.1 Duración y visibilidad de las variables
+
+El **tipo** de una variable se refiere a la naturaleza de la información que contiene 
+El **modo de almacenamiento** (storage class) determina cuándo se crea una variable, cuando deja de existir y desde donde se puede acceder a ella (es decir desde donde es visible)
+En Arduino C toda variable que se declara por fuera de una función es una _variable global_
+Cuando los programas son extensos y complejos las _variables locales_ son muy utiles para que una función solo pueda acceder a sus propias variables. Las variables locales son creadas y borradas cada vez que una función se llama.
+Para crear variables locales que persisten luego del llamado a una función se usa el cualificador _static_
+
+
 
 ### 2.2 Tipos y tamaño de datos (para la plataforma Arduino UNO)
 
